@@ -1,0 +1,124 @@
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.intro-content {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.intro-content-box {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(42, 5, 5);
+}
+
+.img-amy {
+  height: 220px;
+  width: 200px;
+  object-fit: cover;
+  border: 3px solid palevioletred;
+  outline: 3px solid palegoldenrod;
+  border-radius: 50%;
+}
+
+main {
+  margin-bottom: 30px;
+}
+
+.card-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 350px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.edu-container {
+  padding: 15px;
+  background-color: rgb(163, 38, 56);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: wheat;
+  height: 500px;
+}
+.exp-container {
+  padding: 15px;
+  background-color: rgb(224, 180, 143);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: maroon;
+  height: 500px;
+}
+.skill-container {
+  padding: 15px;
+  background-color:rgb(163, 38, 56);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  height: 500px;
+
+}
+
+
+.edu-icon {
+  margin: 20px;
+  min-height: 175px;
+  border: 4px solid palegoldenrod;
+  border-radius: 20px;
+}
+
+.exp-icon {
+  margin: 20px;
+  min-height: 175px;
+  border: 4px solid palegoldenrod;
+  border-radius: 20px;
+}
+
+.skill-icon {
+  margin: 20px;
+  min-height: 175px;
+  border: 4px solid palegoldenrod;
+  border-radius: 20px;
+}
+
+footer > div {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: peachpuff;
+  color: black;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .intro-content {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .card-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+}
