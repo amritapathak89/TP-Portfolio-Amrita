@@ -58,9 +58,9 @@ align-items: center;
 
 .edu-container {
   padding: 15px;
-  background-color: rgb(163, 38, 56);
+  background-color: rgb(255, 223, 211);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: wheat;
+  color:rgba(0, 0, 0, 0.2);
   height: 500px;
 }
 .exp-container {
@@ -72,7 +72,7 @@ align-items: center;
 }
 .skill-container {
   padding: 15px;
-  background-color:rgb(163, 38, 56);
+  background-color: rgb(210, 145, 188);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
   height: 500px;
